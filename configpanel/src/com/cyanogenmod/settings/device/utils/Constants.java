@@ -48,9 +48,9 @@ public class Constants {
 
     // Proc nodes
     public static final String TOUCH_PAD_NODE = "/proc/touchpad/enable";
-    public static final String TOUCHSCREEN_CAMERA_NODE = "/proc/touchpanel/camera_enable";
-    public static final String TOUCHSCREEN_MUSIC_NODE = "/proc/touchpanel/music_enable";
-    public static final String TOUCHSCREEN_FLASHLIGHT_NODE = "/proc/touchpanel/flashlight_enable";
+    public static final String TOUCHSCREEN_CAMERA_NODE = "/proc/touchpanel/letter_o_enable";
+    public static final String TOUCHSCREEN_MUSIC_NODE = "/proc/touchpanel/double_swipe_enable"; // Not ideal but this should work
+    public static final String TOUCHSCREEN_FLASHLIGHT_NODE = "/proc/touchpanel/down_arrow_enable";
 
     // Proc nodes default values
     public static final boolean TOUCH_PAD_DEFAULT = false;
