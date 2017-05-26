@@ -16,26 +16,31 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Definições avançadas</string>
   <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Ativar O-Touch</string>
   <string name="touchpad_enable_summary">Painel tátil traseiro para navegar pelo telefone</string>
-  <string name="touchpad_long_press_title">Pressão longa para iniciar a câmara</string>
-  <string name="touchpad_long_press_summary">Pressionar e segurar o touchpad lançará a aplicação da câmara</string>
+  <string name="touchpad_long_press_title">Toque longo para iniciar a câmara</string>
+  <string name="touchpad_long_press_summary">Toque longo no touchpad lançará a aplicação da câmara</string>
   <string name="touchpad_double_tap_title">Toque duplo para capturar</string>
-  <string name="touchpad_double_tap_summary">Na câmara, dê um toque duplo para capturar a imagem</string>
+  <string name="touchpad_double_tap_summary">Usando câmara, dê um toque duplo para capturar a imagem</string>
   <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Câmara</string>
-  <string name="touchscreen_camera_gesture_summary">Desenhar um círculo para ativar a câmara</string>
+  <string name="screen_gestures_panel_title">Gestos do ecrã</string>
+  <string name="touchscreen_double_tap_gesture_title">Acordar o dispositivo</string>
+  <string name="touchscreen_double_tap_gesture_summary">Toque duplo para acordar o dispositivo</string>
+  <string name="touchscreen_camera_gesture_title">Câmera</string>
+  <string name="touchscreen_camera_gesture_summary">Desenhe um círculo para ativar a câmara</string>
   <string name="touchscreen_music_gesture_title">Música</string>
   <string name="touchscreen_flashlight_gesture_title">Lanterna</string>
   <string name="touchscreen_flashlight_gesture_summary">Desenhar um \'V\' para alterar o estado da lanterna</string>
+  <string name="touchscreen_music_gesture_summary">Use gestos para controlar a reprodução de musica \n • dois dedos verticalmente para tocar/pausa\n • Desenhe uma seta para a esquerda (\'&#60; \') para a faixa anterior\n • Desenhe uma seta para a direita (\'&#62; \') para a próxima faixa</string>
   <!-- O-Click settings -->
-  <string name="oclick_connect_string">Conectar</string>
+  <string name="oclick_connect_string">Conectar-se</string>
   <string name="oclick_disconnect_string">Desconectar</string>
-  <string name="oclick_summary_connected">Conectado ao O-Click</string>
-  <string name="oclick_summary_paired">O-Click emparelhado, mas desconectado</string>
-  <string name="oclick_dialog_connecting_message">A conectar ao O-Click\u2026\nPressione o botão do O-Click para acelerar a descoberta.</string>
-  <string name="oclick_take_snapshot_title">Obturador de câmara remoto</string>
+  <string name="oclick_summary_connected">Ligado ao O-Click</string>
+  <string name="oclick_summary_paired">O-Click emparelhado, mas desligado</string>
+  <string name="oclick_dialog_connecting_message">Conectando-se ao O-Click\u2026\nPressione o botão O-Click para acelerar a descoberta.</string>
+  <string name="oclick_take_snapshot_title">Obturador de câmara remota</string>
   <string name="oclick_take_snapshot_summary">Clicar uma vez para tirar foto</string>
   <string name="oclick_find_my_phone_title">Localizador de telefone</string>
   <string name="oclick_find_my_phone_summary">Clicar duas vezes para encontrar o telefone</string>
@@ -46,23 +51,31 @@
   <string name="alert_category_title">Alertas</string>
   <string name="action_category_title">Ações</string>
   <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">Localizador de telefone O-Click</string>
-  <string name="oclick_locator_notification_text">Alerta de localizador está a tocar. Toque para dispensar</string>
+  <string name="oclick_locator_notification_title">Localizados de telefone O-Click</string>
+  <string name="oclick_locator_notification_text">Alerta de localização está a tocar. Toque para parar.</string>
   <string name="oclick_notification_title_connected">O-Click conectado</string>
   <string name="oclick_notification_title_disconnected">O-Click desconectado</string>
-  <string name="oclick_notification_content_disconnected">Pressione o botão do O-Click para reconectar</string>
+  <string name="oclick_notification_content_disconnected">Pressione o botão O-Click para reconectar</string>
+  <!-- haptic feedback  -->
+  <string name="touchscreen_extras">Extras</string>
+  <string name="haptic_feedback">Feedback tátil</string>
+  <string name="haptic_feedback_summary">Vibrar quando um gesto for detetado</string>
   <!-- Button settings -->
-  <string name="button_panel_title">Botões adicionais</string>
+  <string name="button_panel_title">Deslizador de alerta</string>
   <string name="button_swap_title">Trocar botões</string>
-  <string name="button_swap_summary">Trocar a ordem dos botões Recentes e Voltar</string>
+  <string name="button_swap_summary">Trocar a ordem dos botões de Visão geral e Anterior</string>
   <!-- Notification slider -->
-  <string name="notification_slider_category_title">Botão deslizante de notificações</string>
-  <string name="notification_slider_selection_dialog_title">Ação</string>
-  <string name="notification_slider_top_position">Em cima</string>
-  <string name="notification_slider_middle_position">No meio</string>
-  <string name="notification_slider_bottom_position">Em baixo</string>
+  <string name="notification_slider_category_title">Deslizador de notificações</string>
+  <string name="notification_slider_selection_dialog_title">Acção</string>
+  <string name="notification_slider_ignore_auto_title">Desativar durante regras automáticas</string>
+  <string name="notification_slider_ignore_auto_summary">Ignorar o deslizador quando uma regra automática está ativa</string>
+  <string name="notification_slider_top_position">Posição superior</string>
+  <string name="notification_slider_middle_position">Posição média</string>
+  <string name="notification_slider_bottom_position">Posição inferior</string>
   <string name="notification_slider_mode_total_silence">Silêncio total</string>
   <string name="notification_slider_mode_alarms_only">Apenas alarmes</string>
-  <string name="notification_slider_mode_priority_only">Apenas Prioridade</string>
-  <string name="notification_slider_mode_none">Nenhuma</string>
+  <string name="notification_slider_mode_priority_only">Apenas prioritárias</string>
+  <string name="notification_slider_mode_none">Todas as notificações</string>
+  <string name="notification_slider_mode_vibrate">Vibrar</string>
+  <string name="notification_slider_mode_ring">Tocar</string>
 </resources>
