@@ -16,9 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Advanced settings</string>
+  <string name="app_name">Avanserte innstillinger</string>
   <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Enable O-Touch</string>
+  <string name="touchpad_enable_title">Aktiver O-Touch</string>
   <string name="touchpad_enable_summary">Rear touchpad to navigate the phone</string>
   <string name="touchpad_long_press_title">Long press to launch camera</string>
   <string name="touchpad_long_press_summary">Long press on the touchpad will launch the camera application</string>
@@ -26,7 +26,7 @@
   <string name="touchpad_double_tap_summary">While in camera, double tap to capture image</string>
   <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Touchscreen Gestures</string>
-  <string name="touchscreen_double_tap_gesture_title">Wake device</string>
+  <string name="touchscreen_double_tap_gesture_title">Vekk enhet</string>
   <string name="touchscreen_double_tap_gesture_summary">Double tap to wake the device</string>
   <string name="touchscreen_camera_gesture_title">Camera</string>
   <string name="touchscreen_camera_gesture_summary">Draw a circle to activate camera</string>
